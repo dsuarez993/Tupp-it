@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
+
+    defaultConfig {
+        applicationId "com.app.tuppit"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main.res.srcDirs += 'src/main/java/com/app/tuppit/ui/main/res'
+        main.res.srcDirs += 'src/main/java/com/app/tuppit/ui/food/list/res'
+        main.res.srcDirs += 'src/main/java/com/app/tuppit/ui/food/details/res'
+        main.res.srcDirs += 'src/main/java/com/app/tuppit/ui/food/upload/res'
+        main.res.srcDirs += 'src/main/java/com/app/tuppit/ui/chat/res'
+        main.res.srcDirs += 'src/main/java/com/app/tuppit/ui/menu/help/res'
+        main.res.srcDirs += 'src/main/java/com/app/tuppit/ui/menu/invitefriends/res'
+        main.res.srcDirs += 'src/main/java/com/app/tuppit/ui/menu/messages/res'
+        main.res.srcDirs += 'src/main/java/com/app/tuppit/ui/menu/notifications/res'
+        main.res.srcDirs += 'src/main/java/com/app/tuppit/ui/menu/subscriptions/res'
+        main.res.srcDirs += 'src/main/java/com/app/tuppit/ui/menu/res'
+        main.res.srcDirs += 'src/main/java/com/app/tuppit/ui/user/profile/res'
+        main.res.srcDirs += 'src/main/java/com/app/tuppit/ui/user/signup/res'
+        main.res.srcDirs += 'src/main/java/com/app/tuppit/ui/user/login/res'
+        main.res.srcDirs += 'src/main/java/com/app/tuppit/ui/user/edition/res'
+
+    }
+
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:design:25.2.0'
+    compile 'com.android.support:recyclerview-v7:25.2.0'
+    compile 'com.android.support:cardview-v7:25.2.0'
+    compile 'com.pkmmte.view:circularimageview:1.1'
+
+    compile 'com.squareup.retrofit2:retrofit:2.3.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.6.0'
+
+    compile 'com.google.firebase:firebase-messaging:11.0.4'
+}
+apply plugin: 'com.google.gms.google-services'

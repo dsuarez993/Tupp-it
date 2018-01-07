@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.food.upload.FoodUploadActivity"
+    android:gravity="center_vertical|center_horizontal">
+
+    <RelativeLayout
+
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_error_shape">
+
+        <RelativeLayout
+            android:id="@+id/popup_title_wrapper"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+
+            <com.app.tuppit.utils.custom_ui_elements.MyCustomTextView
+                android:text="Se ha producido un error al subir tu plato. Inténtalo de nuevo más tarde."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:textColor="@color/colorMediumText"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+
+        </RelativeLayout>
+
+        <com.app.tuppit.utils.custom_ui_elements.MyCustomButton
+            android:background="@drawable/button_error_shape"
+            android:text="Ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/b_result_error"
+            android:layout_below="@+id/popup_title_wrapper"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="16sp"
+            android:layout_margin="5dp"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

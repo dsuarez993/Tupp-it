@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.MainActivity"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/abc_action_bar_default_height_material">
+
+    <RelativeLayout
+        android:id="@+id/rlTop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:background="@color/colorPrimary">
+
+        <com.app.tuppit.utils.custom_ui_elements.MyCustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="¡Tengo hambre!"
+            android:id="@+id/tv_hunger"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorLightText"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView"
+            android:background="@drawable/hunger_icon_white"
+            android:layout_below="@+id/tv_hunger"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlBottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:background="@color/colorSecondary">
+
+
+        <com.app.tuppit.utils.custom_ui_elements.MyCustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="¡Tengo comida!"
+            android:id="@+id/tv_chef"
+            android:textColor="@color/colorLightText"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView2"
+            android:background="@drawable/chef_icon_white"
+            android:layout_above="@+id/tv_chef"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

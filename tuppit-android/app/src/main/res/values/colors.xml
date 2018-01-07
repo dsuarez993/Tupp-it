@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorMenu">#153243</color>
+    <color name="colorOverActionBar">#0A1821</color>
+
+    <color name="colorPrimary">#485d72</color>
+    <color name="colorPrimaryAccent">#65819E</color>
+    <color name="colorSecondary">#FDA834</color>
+    <color name="colorSecondaryDark">#DF942E</color>
+    <color name="colorSecondaryAccent">#FCBB5F</color>
+    <color name="colorTertiary">#D9DBE2</color>
+    <color name="colorLightText">#FFFFFF</color>
+    <color name="colorMediumText">#727272</color>
+    <color name="colorDarkText">#0A1821</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTranslucent">#AA000000</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorOk">#28B463</color>
+    <color name="colorError">#CB4335</color>
+
+</resources>

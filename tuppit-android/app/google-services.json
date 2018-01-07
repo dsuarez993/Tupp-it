@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "111702164958",
+    "firebase_url": "https://tuppit-fc5cf.firebaseio.com",
+    "project_id": "tuppit-fc5cf",
+    "storage_bucket": "tuppit-fc5cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111702164958:android:156c9b9d744fb85b",
+        "android_client_info": {
+          "package_name": "com.app.tuppit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111702164958-jj1c3879peht692kkn6p5u618664hu5n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZNFcdcovchydqBwDk1hejDO4fqcS8lg8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.david.apitest.FoodActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <EditText
+        android:id="@+id/et_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="ID" />
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/et_id"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Title" />
+
+    <EditText
+        android:id="@+id/et_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/et_title"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Image" />
+
+    <EditText
+        android:id="@+id/et_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/et_image"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Price" />
+
+    <EditText
+        android:id="@+id/et_userId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/et_price"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="User ID" />
+
+    <EditText
+        android:id="@+id/et_latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Latitude"
+        android:layout_below="@+id/et_userId"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/et_longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Longitude"
+        android:layout_below="@+id/et_latitude"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/b_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Create" />
+
+    <Button
+        android:id="@+id/b_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/b_create"
+        android:layout_toEndOf="@+id/b_create"
+        android:layout_toRightOf="@+id/b_create"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/b_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/b_update"
+        android:layout_toEndOf="@+id/b_update"
+        android:layout_toRightOf="@+id/b_update"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/b_getById"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b_create"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Get by Id" />
+
+    <Button
+        android:id="@+id/b_getList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get List"
+        android:layout_above="@+id/b_update"
+        android:layout_toRightOf="@+id/b_create"
+        android:layout_toEndOf="@+id/b_create" />
+</RelativeLayout>

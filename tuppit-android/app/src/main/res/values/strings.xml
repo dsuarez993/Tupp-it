@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tuppit</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="server_ip">https://192.168.1.37:3000/</string>
+</resources>

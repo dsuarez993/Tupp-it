@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Mensajes"
+            />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Notificaciones" />
+        <item
+            android:id="@+id/nav_ranking"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Ranking" />
+        <item
+            android:id="@+id/nav_subscriptions"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Mis Chefs" />
+        <item
+            android:id="@+id/nav_invite_friends"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Invita a tus amigos" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ayuda" />
+    </group>
+
+
+</menu>
