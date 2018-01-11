@@ -1,6 +1,6 @@
 # Tupp-it
 
-Application prototype for Smartphones that allow users to trade their homemade meals with nearby people. It includes a catalogue of products by location, chat and push notifications. Developed with Android, Node.js and MongoDB.
+Application prototype for Smartphones that allow users to trade their homemade dishes with nearby people. It includes a catalog of products by location, chat and push notifications. Developed with Android, Node.js and MongoDB.
 
 ***************
 This project is divided in three sub-projects:
